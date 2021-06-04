@@ -25,9 +25,11 @@
 
 	  if (scroll >= box - header) {
 	    $(".navbar").addClass("fixed-top");
+	    $(".navbar").css("position","fixed");
 		
 	  } else {
 	    $(".navbar").removeClass("fixed-top");
+ 	   $(".navbar").css("position","");
 	
 	  }
 	});
