@@ -30,6 +30,14 @@ $(document).ready(function () {
     );
   });
 
+  $(".post-wrapper").slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    nextArrow: $(".next"),
+    prevArrow: $(".prev"),
+  });
+
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     var box = $(".left-content").height() - 20;
@@ -47,22 +55,22 @@ $(document).ready(function () {
   $(".input-group.date").datepicker({ format: "dd.mm.yyyy" });
 
   $(".lomba-1").owlCarousel({
-    autoplay: true,
-    dots: false,
     loop: true,
-    nav: true,
+
+    responsiveClass: true,
     responsive: {
       0: {
         items: 1,
+        nav: true,
       },
-      576: {
+      600: {
         items: 1,
+        nav: false,
       },
-      768: {
-        items: 2,
-      },
-      992: {
-        items: 3,
+      1000: {
+        items: 1,
+        nav: true,
+        loop: false,
       },
     },
   });
@@ -82,8 +90,8 @@ $(document).ready(function () {
       768: {
         items: 2,
       },
-      992: {
-        items: 3,
+      900: {
+        items: 4,
       },
     },
   });

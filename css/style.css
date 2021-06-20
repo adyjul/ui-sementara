@@ -1,16 +1,70 @@
- /* 
+/* 
     template by Ady Juliyanto with bootstrap 4.5.2
  
  */
 
- @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
 /* Css Reset */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
-s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -38,13 +92,20 @@ html[xmlns] .clearfix {
   height: 1%;
 }
 
-ul, li {
+ul,
+li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-header, nav, section, article, aside, footer, hgroup {
+header,
+nav,
+section,
+article,
+aside,
+footer,
+hgroup {
   display: block;
 }
 
@@ -52,8 +113,9 @@ header, nav, section, article, aside, footer, hgroup {
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Poppins', sans-serif;
+html,
+body {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -66,7 +128,12 @@ a {
   text-decoration: none !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -89,37 +156,35 @@ p {
   top: -40px;
   transform: translateY(40px);
   background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
-  transition: transform .3s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s;
 }
 
-
-  .navbar-toggler{
-    margin-right: 20px;
-  }
+.navbar-toggler {
+  margin-right: 20px;
+}
 
 .navbar {
   position: relative;
-  width : 100%;
+  width: 100%;
   transition: 0.5s;
   z-index: 999;
 }
 
-.container img{
-  transition: all .3s;
+.container img {
+  transition: all 0.3s;
 }
 
-
-.nav-item{
+.nav-item {
   font-weight: 600;
   text-transform: uppercase;
   margin-right: 5px;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 /* end header */
 
-.banner{
+.banner {
   position: relative;
   background: url(../images/slide-01.jpg);
   min-height: 90vh;
@@ -128,25 +193,24 @@ p {
   padding: 250px 0 200px;
 }
 
-.banner h5, .banner h2, .banner p{
+.banner h5,
+.banner h2,
+.banner p {
   color: white;
 }
 
-.banner h5{
+.banner h5 {
   font-size: 50px;
 }
 
-
 /* home */
 
-
-
 #home .col-lg-4,
-#home .col-lg-8{
+#home .col-lg-8 {
   padding: 0px;
 }
 
-#home .left-content{
+#home .left-content {
   background: url(../images/top-left-bg.jpg);
   z-index: 99;
   background-position: center center;
@@ -157,16 +221,13 @@ p {
   height: 100%;
 }
 
-
-
-#home .left-content .inner-content{
+#home .left-content .inner-content {
   position: absolute;
   z-index: 99;
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
 }
-
 
 #home .left-content h5 {
   color: #fff;
@@ -183,7 +244,7 @@ p {
   margin-top: 5px;
 }
 
-#home .left-content .main-white-button  {
+#home .left-content .main-white-button {
   margin-top: 25px;
   margin-bottom: 10px;
 }
@@ -193,43 +254,40 @@ p {
   color: #4489d9;
 }
 
-.main-white-button a{
+.main-white-button a {
   font-size: 13px;
-    color: #fb5849;
-    background-color: #fff;
-    padding: 12px 25px;
-    display: inline-block;
-    border-radius: 3px;
-    font-weight: 600;
-    transition: all .3s;
+  color: #fb5849;
+  background-color: #fff;
+  padding: 12px 25px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all 0.3s;
 }
 
 /* end home */
 
-
 /* Informasi */
 
-
-#informasi{
+#informasi {
   margin-top: 20px;
-  
+
   padding: 100px 0px 0px 0px;
   position: relative;
   z-index: 9;
-
 }
 
-#informasi .icon{
+#informasi .icon {
   margin-bottom: 40px !important;
   margin-top: 20px !important;
 }
 
-#informasi .content-icon{
+#informasi .content-icon {
   margin-top: 40px;
   z-index: 20;
 }
 
-#informasi .icon i{
+#informasi .icon i {
   width: 70px;
   height: 70px;
   display: inline-block;
@@ -248,22 +306,21 @@ p {
   z-index: 22;
 }
 
-#informasi h6{
-  color:#4489d9;
+#informasi h6 {
+  color: #4489d9;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 #informasi h6::before,
-#informasi h6::after{
+#informasi h6::after {
   display: inline-block;
   content: "";
-  border-top: .1rem solid #4489d9;
+  border-top: 0.1rem solid #4489d9;
   width: 4rem;
   margin: 0 1rem;
   transform: translateY(-6px);
 }
-
 
 /* end Informasi */
 
@@ -278,8 +335,8 @@ p {
   z-index: 9;
 }
 
-#tentang .btn-custom{
-  font-family: 'Raleway', sans-serif;
+#tentang .btn-custom {
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #4489d9;
@@ -293,31 +350,30 @@ p {
   border: 0;
 }
 
-#tentang .btn-custom2{
+#tentang .btn-custom2 {
   font-size: 15px;
 }
 
 #tentang .section-heading h2 {
   padding-right: 120px;
   font-weight: 700;
-  margin-bottom: 25px;;
+  margin-bottom: 25px;
 }
 
-#tentang .section-heading h6::before{
+#tentang .section-heading h6::before {
   display: inline-block;
   content: "";
-  border-top: .1rem solid #4489d9;
+  border-top: 0.1rem solid #4489d9;
   width: 2rem;
   transform: translateY(-6px);
   margin-right: 10px;
 }
 
-#tentang .section-heading h6{
-  color:#4489d9;
+#tentang .section-heading h6 {
+  color: #4489d9;
   text-transform: uppercase;
   font-weight: 700;
   padding-bottom: 50px;
- 
 }
 
 #tentang img {
@@ -330,7 +386,7 @@ p {
 }
 
 #tentang .right-content {
- text-align: center;
+  text-align: center;
 }
 
 #tentang .right-content .thumb {
@@ -350,50 +406,89 @@ p {
   color: #fff;
   border-radius: 50%;
   transform: translate(-35px, -35px);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 #tentang .right-content .thumb a:hover {
-  opacity: .9;
+  opacity: 0.9;
 }
-
-
-
 
 /* end tentang kami */
 
-
 /* berita */
 
+#berita .card:hover {
+  cursor: pointer;
+}
+
+#berita .card img {
+  margin: auto;
+}
+
 #berita h6::before,
-#berita h6::after{
+#berita h6::after {
   display: inline-block;
   content: "";
-  border-top: .1rem solid #4489d9;
+  border-top: 0.1rem solid #4489d9;
   width: 2rem;
   transform: translateY(-6px);
   margin: 0 1rem;
 }
 
-#berita h6{
-  color:#4489d9;
+#berita h6 {
+  color: #4489d9;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-#berita h2{
+#berita .main-row {
+  margin: 8%;
+  background-color: white;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}
+
+#berita .blog-img > img {
+  width: 100%;
+  height: 100%;
+  transform: translateY(-20px);
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#berita .blog-date span {
+  color: #962c51;
+}
+
+.ul-cls {
+  justify-content: center;
+}
+
+.blog-title > h2 {
+  font-weight: 400;
+}
+
+.blog-desc > p {
+  line-height: 2;
+}
+
+.ul-cls li {
+  cursor: pointer;
+}
+
+#berita h2 {
   font-weight: 700;
   margin-bottom: 100px;
   margin-top: 30px;
 }
 
-#berita{
+#berita {
   margin-top: 50px;
   padding-bottom: 50px !important;
 }
 
-
-#berita .owl-carousel .blog-meta{
+#berita .owl-carousel .blog-meta {
   display: flex;
   font-size: 10px;
   position: relative;
@@ -410,8 +505,8 @@ p {
 #berita .owl-dots {
   display: none;
 }
-    
-#berita .owl-nav .owl-prev{
+
+#berita .owl-nav .owl-prev {
   margin-right: 10px;
   outline: none;
 }
@@ -423,16 +518,16 @@ p {
 
 #berita .owl-nav .owl-prev:before {
   display: inline-block;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   color: #4489d9;
   font-size: 25px;
   font-weight: 700;
-  content: '\f104';
+  content: "\f104";
 }
 
 #berita .owl-nav .owl-prev {
   opacity: 0.75;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 #berita .owl-nav .owl-prev:hover {
@@ -441,56 +536,54 @@ p {
 
 #berita .owl-nav .owl-next {
   opacity: 0.75;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 #berita .owl-nav .owl-next:hover {
   opacity: 1;
 }
 
-#berita .owl-nav .owl-next{
+#berita .owl-nav .owl-next {
   margin-left: 10px;
   outline: none;
 }
 
 #berita .owl-nav .owl-next:before {
   display: inline-block;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   color: #4489d9;
   font-size: 25px;
   font-weight: 700;
-  content: '\f105';
+  content: "\f105";
 }
-
 
 /* end berita */
 
-
 /* guru */
 
-#guru{
+#guru {
   background-color: #f6faff;
   margin-top: 100px;
   height: 700px;
 }
 
-#guru h6::before{
+#guru h6::before {
   display: inline-block;
   content: "";
-  border-top: .1rem solid #4489d9;
+  border-top: 0.1rem solid #4489d9;
   width: 2rem;
   transform: translateY(-6px);
   margin-right: 10px;
 }
 
-#guru h6{
+#guru h6 {
   margin-top: 50px;
   margin-bottom: 10px;
   color: #4489d9;
   font-weight: 700;
 }
 
-#guru h2{
+#guru h2 {
   margin-bottom: 50px;
   font-weight: 700;
 }
@@ -498,7 +591,7 @@ p {
 #guru .card {
   width: 280px;
   height: 360px;
-  border-radius: 15px;
+
   padding: 1.5rem;
   background: white;
   position: relative;
@@ -525,7 +618,6 @@ p {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 15px;
   background: rgba(0, 0, 0, 0.6);
   z-index: 2;
   transition: 0.5s;
@@ -535,11 +627,10 @@ p {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: 15px;
 }
 #guru .card .info {
   position: relative;
@@ -574,8 +665,8 @@ p {
 #guru .owl-dots {
   display: none;
 }
-    
-#guru .owl-nav .owl-prev{
+
+#guru .owl-nav .owl-prev {
   margin-right: 10px;
   outline: none;
 }
@@ -587,16 +678,16 @@ p {
 
 #guru .owl-nav .owl-prev:before {
   display: inline-block;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   color: #4489d9;
   font-size: 25px;
   font-weight: 700;
-  content: '\f104';
+  content: "\f104";
 }
 
 #guru .owl-nav .owl-prev {
   opacity: 0.75;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 #guru .owl-nav .owl-prev:hover {
@@ -605,33 +696,32 @@ p {
 
 #guru .owl-nav .owl-next {
   opacity: 0.75;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 #guru .owl-nav .owl-next:hover {
   opacity: 1;
 }
 
-#guru .owl-nav .owl-next{
+#guru .owl-nav .owl-next {
   margin-left: 10px;
   outline: none;
 }
 
 #guru .owl-nav .owl-next:before {
   display: inline-block;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   color: #4489d9;
   font-size: 25px;
   font-weight: 700;
-  content: '\f105';
+  content: "\f105";
 }
-
 
 /* end guru */
 
 /* hubungi */
 
-#hubungi{
+#hubungi {
   margin-top: 120px;
   padding: 120px 0px;
   background-image: url(../images/reservation-bg.jpg);
@@ -642,35 +732,29 @@ p {
 
 #hubungi p,
 #hubungi h2,
-#hubungi h3{
+#hubungi h3 {
   color: white;
 }
 
-#hubungi .section-title{
+#hubungi .section-title {
   margin-bottom: 50px;
 }
 
-#hubungi .social{
-  border-top: 1px solid rgba(255,255,255,0.15);
-    padding-top: 50px;
-    margin-top: 50px;
-    text-align: center;
+#hubungi .social {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 50px;
+  margin-top: 50px;
+  text-align: center;
 }
 
-#hubungi .btn-custom{
+#hubungi .btn-custom {
   margin: 30px 0;
   background: transparent;
   border: 2px solid #fff;
   color: white;
 }
 
-
-
-
-
-
 /* end hubungi */
-
 
 /* footer */
 
@@ -732,138 +816,54 @@ footer .right-text-content ul li a:hover {
 
 /* end footer */
 
-
 /* Responsive */
 
-@media (max-width: 767px)  {
-
-    #home{
-      padding-top: 60px !important;
-    }
-    .container .top-logo img{
-      margin-left: 20px;
-      transition: all .3s;
-    }
-
-    .carousel-item{
-        padding-bottom: 20px;
-        transition: all .3s;
-    }
-
-    #home .left-content{
-      z-index: 99;
-    }
-
-    .header .container img{
-        width: 45px;
-    }
-    .carousel-item .display-4{
-        font-size: 20px !important;
-        margin-top: -200px !important;
-    }
-    .carousel-item img{
-      top: 200px;
-    }
-
-    #home .left-content .inner-content{
-      padding: 60% 0px;
-      margin-top: 26%;
-      text-align: center;
-    }
-
-    
-    #home .left-content .inner-content h6{
-     font-size: 10px;
-     transition: all .3s;
-    }
-
-    #home .left-content .inner-content h5{
-      font-size: large;
-      transition: all .3s;
-    }
-
-    .main-white-button a{
-      background-color: #4489d9;
-      color: white;
-      border-radius: 300px;
-      line-height: 15px;
-    }
-    #home .left-content .main-white-button a {
-      display: inline-block;
-      color:white;
-      font-size: 10px;
-      padding: 9px 10px
-    }
-
-    #informasi{
-      margin-bottom: 50px;
-      padding: 0px;
-    }
-
-    #informasi h6{
-      font-size: 20px;
-    }
-
-    #tentang img{
-      width: 75%;
-      margin-top: 25px;
-      margin-right: 25px;
-    }
-
-    .owl-carousel .owl-item{
-     left: 40px;
-     
-    }
-
-}
-
-@media (max-width: 990px) {
-  #home{
+@media (max-width: 767px) and (max-width: 400px) {
+  #home {
     padding-top: 60px !important;
   }
-  .container .top-logo img{
+  .container .top-logo img {
     margin-left: 20px;
-    transition: all .3s;
+    transition: all 0.3s;
   }
 
-  .carousel-item{
-      padding-bottom: 20px;
-      transition: all .3s;
+  .carousel-item {
+    padding-bottom: 20px;
+    transition: all 0.3s;
   }
 
-  #home .left-content{
+  #home .left-content {
     z-index: 99;
   }
 
-  .header .container img{
-      width: 45px;
+  .header .container img {
+    width: 45px;
   }
-  .carousel-item .display-4{
-      font-size: 20px !important;
-      margin-top: -200px !important;
+  .carousel-item .display-4 {
+    font-size: 20px !important;
+    margin-top: -200px !important;
   }
-  .carousel-item img{
+  .carousel-item img {
     top: 200px;
   }
 
-  #home .left-content .inner-content{
+  #home .left-content .inner-content {
     padding: 60% 0px;
     margin-top: 26%;
     text-align: center;
   }
 
-  
-  #home .left-content .inner-content h6{
-   font-size: 10px;
-   transition: all .3s;
+  #home .left-content .inner-content h6 {
+    font-size: 10px;
+    transition: all 0.3s;
   }
 
-  #home .left-content .inner-content h5{
+  #home .left-content .inner-content h5 {
     font-size: large;
-    transition: all .3s;
+    transition: all 0.3s;
   }
 
-  .main-white-button a{
+  .main-white-button a {
     background-color: #4489d9;
     color: white;
     border-radius: 300px;
@@ -871,28 +871,114 @@ footer .right-text-content ul li a:hover {
   }
   #home .left-content .main-white-button a {
     display: inline-block;
-    color:white;
+    color: white;
     font-size: 10px;
-    padding: 9px 10px
+    padding: 9px 10px;
   }
 
-  #informasi{
+  #berita .main-row {
+    transform: translate3d(-714px, 0px, 0px);
+  }
+
+  #informasi {
     margin-bottom: 50px;
     padding: 0px;
   }
 
-  #informasi h6{
+  #informasi h6 {
     font-size: 20px;
   }
 
-  #tentang img{
+  #tentang img {
     width: 75%;
     margin-top: 25px;
     margin-right: 25px;
   }
 
-  .owl-carousel .owl-item{
-   left: 40px;
-   
+  #tentang .right-content .thumb a {
+    left: 155px;
+    text-align: center;
+  }
+
+  .owl-carousel .owl-item {
+    left: 40px;
+  }
+}
+
+@media (max-width: 990px) {
+  #home {
+    padding-top: 60px !important;
+  }
+  .container .top-logo img {
+    margin-left: 20px;
+    transition: all 0.3s;
+  }
+
+  .carousel-item {
+    padding-bottom: 20px;
+    transition: all 0.3s;
+  }
+
+  #home .left-content {
+    z-index: 99;
+  }
+
+  .header .container img {
+    width: 45px;
+  }
+  .carousel-item .display-4 {
+    font-size: 20px !important;
+    margin-top: -200px !important;
+  }
+  .carousel-item img {
+    top: 200px;
+  }
+
+  #home .left-content .inner-content {
+    padding: 60% 0px;
+    margin-top: 26%;
+    text-align: center;
+  }
+
+  #home .left-content .inner-content h6 {
+    font-size: 10px;
+    transition: all 0.3s;
+  }
+
+  #home .left-content .inner-content h5 {
+    font-size: large;
+    transition: all 0.3s;
+  }
+
+  .main-white-button a {
+    background-color: #4489d9;
+    color: white;
+    border-radius: 300px;
+    line-height: 15px;
+  }
+  #home .left-content .main-white-button a {
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+    padding: 9px 10px;
+  }
+
+  #informasi {
+    margin-bottom: 50px;
+    padding: 0px;
+  }
+
+  #informasi h6 {
+    font-size: 20px;
+  }
+
+  #tentang img {
+    width: 75%;
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+
+  .owl-carousel .owl-item {
+    left: 40px;
   }
 }
