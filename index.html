@@ -14,7 +14,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">    
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/owl-carousel.css">
     <link rel="stylesheet" href="./css/lightbox.css">
@@ -24,12 +24,39 @@
     <body>
     
       <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top header">
-            <div class="container">
-                <img src="./images/logo.png" class="top-logo" >
-            <button class="navbar-toggler navbar-collapse-right no-border" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white header">          
+            <div class="container">             
+                <img src="./images/logo.png" class="top-logo" >                               
+                  <button class="navbar-toggler navbar-collapse-right no-border" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>                                
+                  </button>                               
+                  <img src="./images/icon-grey.png" class="mobile-quick" style="width: 10%;" alt="" data-toggle="modal" data-target="#exampleModal">
+
+                  <div class="dropdown mobile-dropdown">
+                    <a href="#" id="imageDropdown" data-toggle="dropdown">
+                      <img src="./images/person.png" class="mobile-account" style="width: 100%;" alt="">
+                    </a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
+                      <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">                    
+                        <i class="fa fa-cog mb-2" aria-hidden="true"></i>
+                        Setting</a>                  
+                      </li>
+                        <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+                        <i class="fa fa-user" aria-hidden="true"></i>  
+                        Profile</a>
+                      </li>                
+                        <hr>
+                      <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">
+                          <i class="fa fa-sign-out" aria-hidden="true"></i>
+                          Logout</a>
+                      </li>
+                    </ul>
+                  </div>
+      
+                                                                                 
             <div class="collapse navbar-collapse " id="navbarNav">
               <ul class="navbar-nav ml-auto text-center">
                 <li class="nav-item active">
@@ -49,12 +76,101 @@
                   </li>
                 <li class="nav-item">
                     <a class="nav-link scroll-to-section" href="#hubungi"><p>Hubungi Kami</p></a>
+                </li>                                             
+              </ul>               
+            </div>  
+          </div>            
+            <img src="./images/icon-grey.png" class="quick-link btn" style="width: 5%;" alt="" data-toggle="modal" data-target="#exampleModal" >           
+            <div class="dropdown">
+              <a href="#" id="imageDropdown" data-toggle="dropdown">
+                <img src="./images/person.png" class="account mr-4" style="width: 150%;" alt="">                                                     
+              </a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="imageDropdown">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#">                    
+                  <i class="fa fa-cog mb-2" aria-hidden="true"></i>
+                  Setting</a>                  
+                </li>
+                  <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
+                  <i class="fa fa-user" aria-hidden="true"></i>  
+                  Profile</a>
+                </li>                
+                  <hr>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="#">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    Logout</a>
                 </li>
               </ul>
             </div>
-            </div>
+
           </nav>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable " role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Pilih Menu</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-4 text-center">                
+                  <img src="./images/person.png" class="person" alt="">
+                  <a href="#">Akun</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/jurnal.png" class="pelayanan" alt="">
+                  <a href="#">Jurnal</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/lab-icon-png-17.png" class="lab" alt="">
+                  <a href="#">Penelitian</a>
+                </div> 
+                <div class="col-4 text-center">
+                  <img src="./images/news.png" class="lab" alt="">
+                  <a href="#">Berita</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/lokasi.png" class="lab" alt="">
+                  <a href="#">Lokasi</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/support-512.png" class="lab" alt="">
+                  <a href="#">Call Center</a>
+                </div>                                     
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-4 text-center">                
+                  <img src="./images/person.png" class="person" alt="">
+                  <a href="#">Akun</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/support-512.png" class="lab" alt="">
+                  <a href="#">Call Center</a>
+                </div>
+                <div class="col-4 text-center">
+                  <img src="./images/lokasi.png" class="lab" alt="">
+                  <a href="#">Lokasi</a>
+                </div>  
+                <div class="col-4 text-center">
+                  <img src="./images/lokasi.png" class="lab" alt="">
+                  <a href="#">Lokasi</a>
+                </div>  
+                <div class="col-4 text-center">
+                  <img src="./images/lokasi.png" class="lab" alt="">
+                  <a href="#">Lokasi</a>
+                </div>              
+              </div>
+                
+                </div>
+            </div>
+          </div>
       </header>
+
 
       <div id="home">
         <div class="container-fluid">
@@ -73,7 +189,7 @@
                 <div class="col-lg-8">
                     
                   <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-                    <div class="carousel-inner">
+                    <div class="carousel-inner slider">
                       <div class="carousel-item active">
                         <img src="./images/slide-coba.jpg" class="d-block w-100" alt="...">
                       </div>
