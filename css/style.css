@@ -1015,8 +1015,13 @@ footer .right-text-content ul li a:hover {
     margin-right: -5px;
   }
 
+  .navbar .dropdown-menu li a{
+    font-size: 14px;
+  }
+
   .navbar .dropdown-menu{  
     min-width: 7rem;
+    padding: 18px;
   }
 
   .navbar .mobile-account{
