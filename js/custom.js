@@ -105,6 +105,7 @@ $(document).ready(function () {
     dots: false,
     loop: true,
     nav: true,
+    margin: 5,
     responsive: {
       0: {
         items: 1,
@@ -113,10 +114,10 @@ $(document).ready(function () {
         items: 1,
       },
       768: {
-        items: 2,
+        items: 5,
       },
-      900: {
-        items: 4,
+      992: {
+        items: 6,
       },
     },
   });
